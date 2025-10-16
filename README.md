@@ -7,8 +7,8 @@ Download the mcode version of GHDL from the official github repo and then replac
 
 1. Download ghdl with brew
 brew install ghdl
-2. Download the mcode version of ghdl (the file named ghdl-macos-11-mcode) from the official release of GHDL
-3. Unzip the downloaded ghdl-macos-11-mcode.tgz
+2. Download the mcode version of ghdl (the file named ghdl-macos-13-mcode) from the official release of GHDL
+3. Unzip the downloaded ghdl-macos-13-mcode.tgz
 4. Go to /opt/homebrew/Caskroom/ghdl/<version> (version 5.1.11 at the time of writing this) and delete the bin, include and lib directories (these contain the llvm version that is causing problems)
 5. Copy the bin, include and lib directories from the unzipped ghdl-macos-11-mcode directory to the /opt/homebrew/Caskroom/ghdl/<version> directory
 We are done! You can now call the ghdl command from a new terminal shell**. For example,
