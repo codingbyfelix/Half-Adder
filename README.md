@@ -1,4 +1,4 @@
-# Half-Adder
+# Half-Adder Installation
 Half Adder for FPGA with GHDL and GTKWave
 
 First Step (MACOSX) --> Installation GHDL 
