@@ -1,1 +1,14 @@
+# GHDL / Simulation
+*.o
+*.cf
+*.vcd
+*.ghw
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+
+# Betriebssystem / temporär
 .DS_Store
+Thumbs.db
