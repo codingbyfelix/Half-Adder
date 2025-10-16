@@ -25,5 +25,5 @@ Second Step (MACOSX) --> Installation GTK Wave
 2. brew install gtkwave 
 
 # Half-Adder Installation Linux
-sudo apt update
-sudo apt install ghdl
+1. sudo apt update
+2. sudo apt install ghdl
