@@ -12,9 +12,13 @@ This project shows at first how to installate the relevant libraries
 and how the VHDL Design-Flow looks like in the Linux terminal
 
 At the end, the resulting pictures of the different equations in GTKWave are shown with:
+
 a = 'X' b = 'X'
+
 a = '0' b = '0'
+
 a = '0' b = '1'
+
 a = '1' b = '1'
 
 # Half-Adder Installation Progess Linux
