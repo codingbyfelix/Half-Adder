@@ -21,6 +21,6 @@ ghdl -e ha_tb
 ghdl -r ha_tb --vcd=ha.vcd
 
 # Result in GTK Wave
-![Bild 16 10 25 um 15 20](https://github.com/user-attachments/assets/1a0e4613-70f4-4f9a-8d2e-1287f26a8f74)
+!(https://github.com/user-attachments/assets/1a0e4613-70f4-4f9a-8d2e-1287f26a8f74)
 
 
