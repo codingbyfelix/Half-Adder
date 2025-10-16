@@ -1,29 +1,31 @@
-# Half-Adder Installation MAC
-Half Adder for FPGA with GHDL and GTKWave
+# Half-Adder Project Linux
 
-First Step (MACOSX) --> Installation GHDL 
+# Half-Adder Installation Progess Linux
 
-Download the mcode version of GHDL from the official github repo and then replace the brew-installed LLVM version with the manually downloaded mcode version.
-
-1. Download ghdl with brew
-brew install ghdl
-2. Download the mcode version of ghdl (the file named ghdl-macos-13-mcode) from the official release of GHDL
-3. Unzip the downloaded ghdl-macos-13-mcode.tgz
-4. Go to /opt/homebrew/Caskroom/ghdl/<version> (version 5.1.11 at the time of writing this) and delete the bin, include and lib directories (these contain the llvm version that is causing problems)
-5. Copy the bin, include and lib directories from the unzipped ghdl-macos-11-mcode directory to the /opt/homebrew/Caskroom/ghdl/<version> directory
-We are done! You can now call the ghdl command from a new terminal shell**. For example,
-
-ghdl --version
-
-If this doesn't work, try this:
-echo 'export PATH="/opt/homebrew/Caskroom/ghdl/<VERSION_NUMBER>/bin:$PATH"' >> ~/.zshrc
-source ~/.zshrc
-
-Second Step (MACOSX) --> Installation GTK Wave
-
-1. Open Terminal
-2. brew install gtkwave 
-
-# Half-Adder Installation Linux
+# Installation GHDL
 1. sudo apt update
 2. sudo apt install ghdl
+
+# Installation GTK Wave
+sudo apt install gtkwave
+
+# VHDL Design-Flow
+# Analyse
+1. ghdl -a ha.vhdl
+2. ghdl -a ha_tb.vhdl
+
+# Elaboration 
+ghdl -e ha_tb
+
+# Simulation
+ghdl -r ha_tb --vcd=ha.vcd
+
+# Result in GTK Wave
+![Bild 16 10 25 um 15 20](https://github.com/user-attachments/assets/72044f21-31eb-406a-a48f-3445750894a1)
+![Bild 16 10 25 um 15 21](https://github.com/user-attachments/assets/a3b252ea-6a46-41ea-abe4-911a2d174041)
+![Bild 16 10 25 um 15 22](https://github.com/user-attachments/assets/7030b3a8-1637-4622-bc1d-9ff9c51969d5)
+![Bild 16 10 25 um 15 23](https://github.com/user-attachments/assets/0a7c7489-8f68-43f5-901e-5c59c2f82bc6)
+<img width="1992" height="1290" alt="Bild 16 10 25 um 15 23 (1)" src="https://github.com/user-attachments/assets/8a7c072c-f2ea-47ff-a87b-3bed3d59c562" />
+
+
+
