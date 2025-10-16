@@ -1,0 +1,7 @@
+# GHDL / Simulation
+.o
+.cf
+
+# Betriebssystem / temporär
+.DS_Store
+Thumbs.db
