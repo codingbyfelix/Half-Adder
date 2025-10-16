@@ -9,3 +9,8 @@ port(
     c: out std_ulogic;
 )
 end ha entity;
+
+architecture behave of ha is
+begin
+
+end behave;
