@@ -1,4 +1,4 @@
-# Half-Adder Installation
+# Half-Adder Installation MAC
 Half Adder for FPGA with GHDL and GTKWave
 
 First Step (MACOSX) --> Installation GHDL 
@@ -23,3 +23,7 @@ Second Step (MACOSX) --> Installation GTK Wave
 
 1. Open Terminal
 2. brew install gtkwave 
+
+# Half-Adder Installation Linux
+sudo apt update
+sudo apt install ghdl
