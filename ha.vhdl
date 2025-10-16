@@ -12,5 +12,6 @@ end ha entity;
 
 architecture behave of ha is
 begin
-
+    o <= a xor b;
+    c <= a and b;
 end behave;
